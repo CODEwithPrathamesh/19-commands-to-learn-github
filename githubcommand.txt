@@ -1,0 +1,24 @@
+1. cd (To change the directory)
+2. mkdir (To make a folder)
+3. git init (creates a new Git repository)
+4. git status(Check if some file is not comitted and provide the status of the repo)
+5. > filename.extension(To create a file only if you use in gitbash)
+	touch test.txt(to make a new file)
+6. git commit -m "Message for commiting"
+7. git config --global user.email "email@gmail.com"
+8. git config --global user.name"Username"
+9. git add <filename.extension> (Add the filename)
+10. git add *.*(To add all files with extension)
+	 git add .(To add all files)
+11. git remote -v(To see i m in which repository)
+12. git remote set-url typeurl(to change the repository from one to another)
+git push -u origin branch(master) ( to add all project files to branch master)
+13. git log(Provide all information of wha you have done till now)
+14. git --help(To get all help and all information of gitbash commands)
+15. git branch newname(To create a new branch in repo)
+16. git branch(To check all branches)
+17. git checkout newname(To move to another branch)
+    git push origin branchname(master)(to push branch into particular branchname)
+18. git delete -b branchname(To delete a particular branch locally)
+	git push origin --d branchname
+19. git merge branchname(merge the branch into the *master(necessary))
