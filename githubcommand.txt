@@ -10,7 +10,6 @@
 9. git add <filename.extension> (Add the filename)
 10. git add *.*(To add all files with extension)
 	 git add .(To add all files)
-10. git remote add origin(to add new repo to file)
 11. git remote -v(To see i m in which repository)
 12. git remote set-url typeurl(to change the repository from one to another)
 git push -u origin branch(master) ( to add all project files to branch master)
@@ -23,3 +22,4 @@ git push -u origin branch(master) ( to add all project files to branch master)
 18. git delete -b branchname(To delete a particular branch locally)
 	git push origin --d branchname
 19. git merge branchname(merge the branch into the *master(necessary))
+20. 10. git remote add origin(to add new repo to file)
